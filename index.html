@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kerri</title>
+    <!--icon-->
+    <link rel="shortcut icon" href="./img/1.jpg" />
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!------------------fixd icon--------------------------------------------------------------------->
+    <a
+      href="#"
+      class="position-fixed px-3 py-2 start-0 bg-black top-50 setting z-1"
+    >
+      <i class="fas fa-cog fa-spin text-white"></i
+    ></a>
+    <a href="#home" class="text-decoration-none text-white up-btn"
+      ><i class="fa-solid fa-angle-up"></i
+    ></a>
+    <!----------------navbar------------------------------------------------------------------------------->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">kerri</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle position-relative"
+                    id="drobdown-nested"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Drop Down 3
+                  </a>
+                  <ul class="dropdown-menu pe-md-4" id="dropdown-menu-nested">
+                    <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Drop Down 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Drop Down 4</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--------------main--------------------------------------------------------->
+    <main>
+      <!---header--------------------------------->
+      <header
+        id="home"
+        class="min-vh-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="capition text-center text-white">
+          <span class="fs-3">Welcome</span>
+          <h1>I'M <span id="element" class="text-capitalize"></span></h1>
+          <p class="max-w-100 fs-5">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+          <button
+            class="btn btn-outline-light rounded-pill px-5 py-3 text-uppercase"
+          >
+            download cv
+          </button>
+          <a href="#about" class="scroll"> </a>
+        </div>
+      </header>
+      <!---about---------------------->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img src="./img/about.jpg" class="w-100 img-thumbnail" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2><span class="fw-bold">About</span> Me</h2>
+              <h4>
+                Hello! <span class="fw-bold text-pink">I'M Kerri Deo</span>.
+              </h4>
+              <p class="lead fs-5">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+              <p class="lead fs-5">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-3 d-flex justify-content-between flex-row align-items-center fs-6 text-capitalize"
+                  style="width: 85%"
+                >
+                  <span>html</span> <span>85%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-3 d-flex justify-content-between flex-row align-items-center fs-6 text-capitalize"
+                  style="width: 75%"
+                >
+                  <span>css</span> <span>75%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-3 d-flex justify-content-between flex-row align-items-center fs-6 text-capitalize"
+                  style="width: 50%"
+                >
+                  <span>php</span> <span>50%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-3 d-flex justify-content-between flex-row align-items-center fs-6 text-capitalize"
+                  style="width: 90%"
+                >
+                  <span>java script</span> <span>90%</span>
+                </div>
+              </div>
+              <ul class="list-unstyled d-flex w-fit column-gap-5 about-icon">
+                <li><i class="fa-brands fa-dribbble"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----services----------------->
+      <section id="services" class="p-5 bg">
+        <div class="heading text-center">
+          <h2>Our <span class="fw-bold">Services</span></h2>
+          <p class="max-w-100 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row pt-5 gy-5">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-solid fa-chart-simple fa-2x m-auto"></i>
+                <h3>Graphic Design</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-solid fa-mug-hot fa-2x m-auto"></i>
+                <h3>Unlimited Color</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-solid fa-cloud-arrow-up m-auto fa-2x"></i>
+                <h3>Media Marketing</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-regular fa-copy m-auto fa-2x"></i>
+                <h3>Unlimited Wifi</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-solid fa-paintbrush m-auto fa-2x"></i>
+                <h3>Responsive Design</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-card shadow-lg text-center p-5 rounded-2 bg-white"
+              >
+                <i class="fa-solid fa-file-pen m-auto fa-2x"></i>
+                <h3>Easy to customize</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------clients-->
+      <section id="testimonial" class="p-5 bg">
+        <div class="heading text-center">
+          <h2>Our <span class="fw-bold">Clients</span></h2>
+          <p class="max-w-100 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide p-5"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active text-center"
+                data-bs-interval="1000"
+              >
+                <i class="fa-solid fa-quote-left fa-3x text-pink"></i>
+                <img
+                  src="./img/testi-1.jpg"
+                  alt=""
+                  class="d-block m-auto img-thumbnail"
+                />
+                <p class="max-w-100 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="1000">
+                <i class="fa-solid fa-quote-left fa-3x text-pink"></i>
+                <img
+                  src="./img/testi-2.jpg"
+                  alt=""
+                  class="d-block m-auto img-thumbnail"
+                />
+                <p class="max-w-100 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="1000">
+                <i class="fa-solid fa-quote-left fa-3x text-pink"></i>
+                <img
+                  src="./img/testi-3.jpg"
+                  alt=""
+                  class="d-block m-auto img-thumbnail"
+                />
+                <p class="max-w-100 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+            </div>
+            <div class="carousel-indicators position-static">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------portfolio-->
+      <section id="portfolio">
+        <div class="heading text-center">
+          <h2>Our <span class="fw-bold">Work</span></h2>
+          <p class="max-w-100 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#all"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#seo"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                SEO
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#webdesign"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                Web Design
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#work"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                work
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#wordpress"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                wordpress
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="all"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5 pt-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#staticBackdrop"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic2"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic3"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic4"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic5"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic6"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/6.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="seo"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5 pt-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic2"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                      data-bs-target="#pic2"
+                      data-bs-toggle="modal"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic3"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic5"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="webdesign"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5 pt-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#staticBackdrop"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic2"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic4"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic5"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic6"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/6.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="work"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5 pt-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic2"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic3"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="wordpress"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5 pt-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#staticBackdrop"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic3"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative"
+                    data-bs-target="#pic4"
+                    data-bs-toggle="modal"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt=""
+                      class="d-block w-100 rounded-3"
+                    />
+                    <div
+                      class="layer rounded-3 d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <div class="layer-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--------------------------------------modal------------------------------------------------------>
+
+          <!-- Modal -->
+
+          <!-- Modal pic 1 -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/1.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---modal pic 2-->
+          <div
+            class="modal fade"
+            id="pic2"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/2.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---modal pic 3-->
+          <div
+            class="modal fade"
+            id="pic3"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/3.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---modal pic 4-->
+          <div
+            class="modal fade"
+            id="pic4"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/4.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---modal pic 5-->
+          <div
+            class="modal fade"
+            id="pic5"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/6.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---modal pic 6-->
+          <div
+            class="modal fade"
+            id="pic6"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/6.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----blog-->
+      <section id="blog" class="bg">
+        <div class="heading text-center">
+          <h2>Our <span class="fw-bold">Blog</span></h2>
+          <p class="max-w-100 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-card bg-white p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./img/blog-1.jpg" alt="" class="w-100 d-block" />
+                  <div
+                    class="blog-layer text-white d-flex justify-content-center align-items-center"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h5">There are many variations</h3>
+                  <span class="d-inline-block my-3"
+                    >11 March 2018 <span class="text-pink">By Kerri</span></span
+                  >
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none text-pink"
+                    >Read More...</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-card bg-white p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./img/blog-2.jpg" alt="" class="w-100 d-block" />
+                  <div
+                    class="blog-layer text-white d-flex justify-content-center align-items-center"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h5">There are many variations</h3>
+                  <span class="d-inline-block my-3"
+                    >11 March 2018 <span class="text-pink">By Kerri</span></span
+                  >
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none text-pink"
+                    >Read More...</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-card bg-white p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./img/blog-3.jpg" alt="" class="w-100 d-block" />
+                  <div
+                    class="blog-layer text-white d-flex justify-content-center align-items-center"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h5">There are many variations</h3>
+                  <span class="d-inline-block my-3"
+                    >11 March 2018 <span class="text-pink">By Kerri</span></span
+                  >
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none text-pink"
+                    >Read More...</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------contact-->
+      <section id="contact">
+        <div class="heading text-center">
+          <h2><span class="fw-bold me-2">contact</span>us</h2>
+          <p class="max-w-100 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <div class="input-fileld">
+                <input type="text" class="form-control" placeholder="name" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-fileld">
+                <input type="email" class="form-control" placeholder="email" />
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="input-fileld">
+                <input type="text" class="form-control" placeholder="subject" />
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="input-fileld">
+                <textarea
+                  class="form-control"
+                  placeholder="message"
+                  cols="30"
+                  rows="10"
+                >
+                </textarea>
+              </div>
+            </div>
+            <button class="btn form-btn ms-auto">send message</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------------footer---------------------------------->
+    <footer class="text-white-50">
+      <ul class="list-unstyled d-flex column-gap-4 footer-icon">
+        <li><i class="fab fa-facebook fa-1x"></i></li>
+        <li><i class="fab fa-linkedin fa-1x"></i></li>
+        <li><i class="fab fa-pinterest fa-1x"></i></li>
+        <li><i class="fab fa-twitter fa-1x"></i></li>
+      </ul>
+      <p class="mt-2">2018 - 2021 © Kerri. Design by SRBThemes.</p>
+    </footer>
+    <!----------------------type js----------------------------------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["photographer", "designer", "web devolper"],
+        typeSpeed: 100,
+        typeSpeed: 100,
+        loop: true,
+      });
+    </script>
+    <!---bootstrap js------------------------------------>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
